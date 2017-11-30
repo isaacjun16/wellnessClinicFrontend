@@ -1,0 +1,19 @@
+.container-footer {
+    background: linear-gradient(to left, rgba(0, 118, 126, 0.6), rgba(0, 118, 126, 1) 40%), url(/assets/img/footer-background.png) no-repeat center right;
+    height: 283px;
+    background-size: auto, contain;
+    overflow: hidden;
+}
+
+.container-footer .col-md-6:first-child {
+    padding-top: 45px;
+}
+
+.container-footer .col-md-6:last-child {
+    padding-top: 40px;
+}
+
+.container-footer p {
+    font-size: 22px;
+    color: #ffffff;
+}

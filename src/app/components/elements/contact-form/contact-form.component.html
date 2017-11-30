@@ -1,0 +1,18 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f.value)" class="wellness-contact-form">
+  <h3>Contact Us</h3>
+  <div class="form-row">  
+    <label for="skuInput">Name</label>  
+    <input id="skuInput" name="name" type="text" ngModel/>  
+  </div>
+  <div class="form-row">  
+    <label for="skuInput">E-Mail</label>  
+    <input id="skuInput" name="email" type="text" ngModel/>  
+  </div>
+  <div class="form-row">  
+    <label for="skuInput">Message</label>  
+    <textarea id="messageInput" name="message" ngModel rows="3"></textarea> 
+  </div>
+  <div class="form-row">
+    <button type="submit" class="btn btn-primary">Send</button> 
+  </div>
+</form> 

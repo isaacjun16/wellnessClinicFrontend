@@ -1,0 +1,32 @@
+.testimonial-container,
+.carousel {
+    background-color: #f4fbfb;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+    margin-top: -10px;
+    font-size: 65px;
+    line-height: 0px;
+}
+
+blockquote {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    border: none;
+}
+
+blockquote,
+blockquote footer {
+    color: #01767d;
+    font-size: 24px;
+}
+
+blockquote footer {
+    text-align: right;
+}

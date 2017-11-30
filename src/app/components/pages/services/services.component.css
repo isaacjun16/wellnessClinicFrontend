@@ -1,0 +1,43 @@
+.services-title {
+    text-align: center;
+    color: #01767d;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.thumbnail {
+    border: none;
+}
+
+.thumbnail .caption {
+    color: #01767d;
+    text-align: center;
+}
+
+.main-article {
+    margin-bottom: 48px;
+}
+
+.media .media-left, 
+.media > .pull-left {
+    padding-right: 50px;
+}
+
+.media .media-heading {
+    color: #01767d;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.media .media-body p {
+    color: #01767d;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+.article-container {
+    background-color: #f4fbfb;
+    padding-top: 5%;
+    padding-bottom: 9%;
+}

@@ -1,0 +1,49 @@
+.wellness-contact-form {
+    background-color: #f3fcfc;
+    padding: 25px;
+    box-sizing: border-box;
+    
+}
+
+.wellness-contact-form h3,
+.wellness-contact-form .form-row {
+    color: #059ca4;
+}
+
+.wellness-contact-form .form-row {
+    display: flex;
+    margin-bottom: 30px;
+}
+.wellness-contact-form .form-row:last-child {
+    margin-bottom: 0px;
+}
+
+.wellness-contact-form input {
+    flex: 2;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #05929a; 
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.wellness-contact-form .form-row button {
+    margin-left: auto;
+}
+
+.wellness-contact-form textarea {
+    height: 120px;
+    flex: 2;
+    background-color: transparent;
+    border: none;
+    background-image: -webkit-linear-gradient(#f3fcfc 37px, #05929a 37px, #05929a 38px, #f3fcfc 38px);
+    background-image: -moz-linear-gradient(#f3fcfc 37px, #05929a 37px, #05929a 38px, #f3fcfc 38px);
+    background-image: -ms-linear-gradient(#f3fcfc 37px, #05929a 37px, #05929a 38px, #f3fcfc 38px);
+    background-image: -o-linear-gradient(#f3fcfc 37px, #05929a 37px, #05929a 38px, #f3fcfc 38px);
+    background-image: linear-gradient(#f3fcfc 37px, #05929a 37px, #05929a 38px, #f3fcfc 38px);
+    background-size: 100% 38px;
+    line-height: 31px;
+    font-family: Arial, Helvetica, Sans-serif;
+    line-height: 38px;
+    padding-left: 5px;
+}

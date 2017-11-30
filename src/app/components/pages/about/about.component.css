@@ -1,0 +1,23 @@
+.about-section-container {
+    position: relative;
+    background: url('/assets/img/background1.png') center center repeat;
+    background-size: auto;
+    background-position: top right;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.about-section-container .jumbotron {
+    margin-top: 15%;
+    margin-bottom: 26%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.about-section-container .jumbotron h1 small{
+    color: #016a70;
+}
+
+.about-section-container .jumbotron p{
+    color: #065054;
+}

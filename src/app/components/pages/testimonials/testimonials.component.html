@@ -1,0 +1,29 @@
+<div class="container-fluid testimonial-container">
+  <div id="wellness-carousel" class="carousel slide" data-ride="carousel">
+    <div class="row">
+        <div class="col-xs-offset-2 col-xs-8">
+            <div class="carousel-inner">
+                <div class="item" *ngFor="let testimonial of testimonials; let isFirst = first" [class.active]="isFirst">
+                    <div class="carousel-content">
+                      <div>
+                        <blockquote>
+                          <p>{{testimonial.content}}</p>
+                          <footer>{{testimonial.author}}</footer>
+                        </blockquote>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Controls --> 
+    <a class="left carousel-control" href="#wellness-carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-menu-left icon-prev"></span>
+      <!--<span class="glyphicon glyphicon-chevron-left"></span>-->
+    </a>
+    <a class="right carousel-control" href="#wellness-carousel" data-slide="next">
+    <span class="glyphicon glyphicon-menu-right icon-next"></span>
+    <!--<span class="glyphicon glyphicon-chevron-right"></span>-->
+    </a>
+  </div>
+</div>
