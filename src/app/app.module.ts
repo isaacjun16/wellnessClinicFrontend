@@ -59,7 +59,7 @@ import { ConfirmComponent } from './components/elements/confirm/confirm.componen
     ReactiveFormsModule,
     BootstrapModalModule.forRoot({container:document.body}),
     AgmCoreModule.forRoot({
-      apiKey: ''
+      apiKey: 'AIzaSyAv1WsaRL82XREHouEPM8PMqWijGmpdIIo'
     })/*,
     RouterModule.forRoot(routes)*/
   ],
